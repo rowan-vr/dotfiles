@@ -1,0 +1,5 @@
+waybar
+rofi-wayland
+dunst
+hyprpaper
+alacritty

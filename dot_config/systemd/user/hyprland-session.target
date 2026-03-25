@@ -1,0 +1,5 @@
+[Unit]
+Description=Hyprland session services
+BindsTo=graphical-session.target
+Wants=waybar.service dunst.service hyprpaper.service
+After=graphical-session.target

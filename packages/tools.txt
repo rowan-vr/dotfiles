@@ -1,0 +1,11 @@
+chezmoi
+git
+wl-clipboard
+grim
+slurp
+brightnessctl
+playerctl
+pavucontrol
+thunar
+polkit-gnome
+qt6ct

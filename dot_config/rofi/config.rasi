@@ -1,0 +1,49 @@
+configuration {
+  modi: "drun,run";
+  show-icons: true;
+  terminal: "alacritty";
+  font: "JetBrainsMono Nerd Font 11";
+}
+
+* {
+  bg: #1e1e2e;
+  bg-alt: #11111b;
+  fg: #cdd6f4;
+  accent: #89b4fa;
+  urgent: #f38ba8;
+  selected: #313244;
+}
+
+window {
+  background-color: @bg;
+  border: 2px;
+  border-color: @accent;
+  border-radius: 8px;
+  width: 40%;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+inputbar {
+  background-color: @bg-alt;
+  text-color: @fg;
+  padding: 10px;
+}
+
+listview {
+  lines: 8;
+  columns: 1;
+  background-color: @bg;
+  padding: 8px;
+}
+
+element {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+element selected {
+  background-color: @selected;
+}
