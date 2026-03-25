@@ -32,5 +32,12 @@
 
   "tray": {
     "spacing": 8
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "*": 5
+    }
   }
 }
